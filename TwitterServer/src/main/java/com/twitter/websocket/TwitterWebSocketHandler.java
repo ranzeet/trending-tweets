@@ -35,8 +35,6 @@ public class TwitterWebSocketHandler extends AbstractWebSocketHandler {
 
 	@Override
 	protected void handleBinaryMessage(WebSocketSession session, BinaryMessage message) throws Exception {
-		System.out.println("bhai.. bhai .. bhai : " + message);
-		session.sendMessage(new BinaryMessage(new String("bandta karna chahta hai").getBytes()));
 		// super.handleBinaryMessage(session, message);
 	}
 
